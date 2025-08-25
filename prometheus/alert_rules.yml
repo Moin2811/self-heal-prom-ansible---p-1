@@ -1,0 +1,20 @@
+groups:
+  - name: self_heal_rules
+    rules:
+      - alert: BlackboxTargetDown
+        expr: probe_success{job="blackbox"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Service down (HTTP probe failed)"
+          description: "Blackbox probe to {{ $labels.instance }} is failing."
+
+      - alert: HostCPUHigh
+        expr: (100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)) > 90
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage (>90% for 5m)"
+          description: "Host CPU high on {{ $labels.instance }}."

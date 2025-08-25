@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - /etc/prometheus/alert_rules.yml
+
+scrape_configs:
+  # Scrape Node Exporter on the host
+  - job_name: node
+    static_configs:
+      - targets: ["127.0.0.1:9100"]
+
+  # Probe NGINX via Blackbox Exporter
+  - job_name: blackbox
+    metrics_path: /probe
+    params:
+      module: [http_2xx]
+    static_configs:
+      - targets:
+          - http://localhost       # The target to probe (your NGINX)
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - target_label: __address__
+        replacement: 127.0.0.1:9115   # Blackbox Exporter
+      - source_labels: [__param_target]
+        target_label: instance

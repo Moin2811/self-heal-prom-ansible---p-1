@@ -1,0 +1,9 @@
+---
+- name: Self-heal NGINX
+  hosts: local
+  become: true
+  tasks:
+    - name: Ensure NGINX is restarted (and therefore running)
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
