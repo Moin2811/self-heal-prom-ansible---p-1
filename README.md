@@ -9,6 +9,6 @@ Automatically detects service failures (NGINX down, high CPU) and heals them by 
 ## Quick start (tested on Ubuntu 22.04)
 1. Clone repo
    ```bash
-   git clone https://github.com/<you>/self-heal-prom-ansible.git
+   git clonne : https://github.com/Moin2811/self-heal-prom-ansible---p-1.git
    cd self-heal-prom-ansible
 
