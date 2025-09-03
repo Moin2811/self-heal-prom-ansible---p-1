@@ -56,9 +56,8 @@ This project highlights how monitoring and automation can be integrated to build
 <img width="1918" height="1022" alt="Screenshot 2025-08-25 173529" src="https://github.com/user-attachments/assets/51f5a23d-22a6-455d-9d5e-1bcf8f0e2147" />
 <img width="1918" height="1011" alt="Screenshot 2025-08-26 151207" src="https://github.com/user-attachments/assets/da8561d5-86cb-4e01-8a2b-594c443c8c1b" />
 <img width="1918" height="1007" alt="Screenshot 2025-08-26 164501" src="https://github.com/user-attachments/assets/a7c1c593-235a-459c-aac3-69c323961a13" />
-<img width="1918" height="1016" alt="Screenshot 2025-08-25 173650" src="https://github.com/user-attachments/assets/81d8db5d-b346-454e-9d0e-47da0db26e79" />
+<img width="1448" height="653" alt="Screenshot 2025-09-04 001801" src="https://github.com/user-attachments/assets/661cd7de-9fd6-414c-8d11-456a949c168b" />
 <img width="1918" height="1025" alt="Screenshot 2025-08-26 164827" src="https://github.com/user-attachments/assets/a1ff89fc-1e90-4835-a0e5-e33d2110dfc9" />
-<img width="1918" height="1006" alt="Screenshot 2025-08-26 164559" src="https://github.com/user-attachments/assets/0e99d90f-51ea-4ebd-9236-8dfce25b9f81" />
 <img width="1916" height="1000" alt="Screenshot 2025-08-26 165115" src="https://github.com/user-attachments/assets/46577f8d-fdbe-4236-b5dc-9574d376dafb" />
 
 
