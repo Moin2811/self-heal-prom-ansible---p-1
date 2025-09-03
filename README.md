@@ -1,8 +1,3 @@
-# Self-Healing Infrastructure — Prometheus + Alertmanager + Ansible
-
-## What this project does
-Automatically detects service failures (NGINX down, high CPU) and heals them by running Ansible playbooks via an Alertmanager → webhook → Ansible pipeline.
-
 Self-Healing Infrastructure with Prometheus, Alertmanager & Ansible
 
 ## Project Overview
