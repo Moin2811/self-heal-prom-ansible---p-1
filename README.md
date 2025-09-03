@@ -1,4 +1,4 @@
-Self-Healing Infrastructure with Prometheus, Alertmanager & Ansible
+## Self-Healing Infrastructure with Prometheus, Alertmanager & Ansible
 
 ## Project Overview
 
