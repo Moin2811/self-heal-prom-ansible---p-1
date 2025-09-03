@@ -45,6 +45,8 @@ This project highlights how monitoring and automation can be integrated to build
 
 
 ## Screenshots
+<img width="1918" height="992" alt="Screenshot 2025-09-04 004452" src="https://github.com/user-attachments/assets/5c26ee77-4a1c-4524-aad8-05f2ac8ad446" />
+<img width="1918" height="1016" alt="Screenshot 2025-09-04 004214" src="https://github.com/user-attachments/assets/ad18be15-f38b-4ab4-8912-cbf88118d7de" />
 <img width="1918" height="997" alt="blackbox" src="https://github.com/user-attachments/assets/4132ff82-e4cf-4c6e-a97a-3992a80830c6" />
 <img width="1917" height="1008" alt="node exporter" src="https://github.com/user-attachments/assets/e8be01c1-96e9-4707-b30b-861ce9c136d6" />
 <img width="1918" height="1005" alt="Screenshot 2025-08-25 173431" src="https://github.com/user-attachments/assets/9b93b03a-139a-487c-8fbe-b7167ef34c73" />
