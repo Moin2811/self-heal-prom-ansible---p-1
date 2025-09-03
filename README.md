@@ -5,23 +5,23 @@ Automatically detects service failures (NGINX down, high CPU) and heals them by 
 
 Self-Healing Infrastructure with Prometheus, Alertmanager & Ansible
 
-📌 Project Overview
+## Project Overview
 
 This project demonstrates a self-healing infrastructure that can automatically detect service failures and recover them using monitoring, alerting, and automation.
 
-🎯 Objective
+## Objective
 	•	Detect when a service (e.g., NGINX) goes down or when system metrics cross thresholds.
 	•	Trigger an Alertmanager notification.
 	•	Execute an Ansible playbook to restart the failed service or system component.
 
-🛠 Tools Used
+## Tools Used
 	•	Prometheus – Monitoring and alerting
 	•	Alertmanager – Alert handling and notification
 	•	Ansible – Automation for recovery
 	•	Ubuntu VM / Docker – Infrastructure setup
 	•	Shell Scripting – Automation support
 
-🚀 Steps Involved
+## Steps Involved
 	1.	Deploy a sample service (NGINX) for monitoring.
 	2.	Configure Prometheus to scrape metrics and set alert rules.
 	3.	Connect Prometheus with Alertmanager for handling alerts.
@@ -29,13 +29,13 @@ This project demonstrates a self-healing infrastructure that can automatically d
 	5.	Create an Ansible playbook to restart the service automatically.
 	6.	Validate by simulating a service failure and observing auto-recovery.
 
-📂 Deliverables
+## Deliverables
 	•	Prometheus configuration
 	•	Alertmanager webhook setup
 	•	Ansible playbook for auto-recovery
 	•	Logs/screenshots showing successful self-healing in action
 
-✅ Conclusion
+## Conclusion
 
 This project highlights how monitoring and automation can be integrated to build resilient and self-healing systems, reducing downtime and ensuring service reliability.
 
